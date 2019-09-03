@@ -1,0 +1,1002 @@
+// 顶部
+.top{
+    height:90px;
+    .logo{
+        margin:26px 243px 0 0;
+        width:198px;
+    }
+    .nav{
+        .item{
+            display: inline-block;
+            float: left;
+            padding:0 30px;
+            line-height: 90px;
+            font-size:16px;
+            color:#9699A6;    
+            &.on{
+                color:#fff;
+                background: #33639E;
+            } 
+        }
+    }
+    .nav-btn{
+        display:none;
+    }
+    .close-btn{
+        display:none;
+    }
+}
+.nav-box-2{
+    display:none;
+}
+.nav-box{
+    display: none;
+    position:absolute;
+    top:90px;
+    left:0;
+    right:0;
+    z-index:200;
+    width:100%;
+    height:513px;
+    background:rgba(51,99,158,0.8);
+    .nav-list{
+        margin:0 auto;
+        width:1098px;
+        .nav-l{
+            padding-top:83px;
+            width:402px;
+            .nav-tit{
+                margin-bottom: 52px;
+                line-height:1;
+                font-size:24px;
+                font-weight:normal;
+                color:#fff;
+            }
+            .nav-ul{
+                .nav-li{
+                    display: block;
+                    padding-bottom:44px;
+                    line-height:1;
+                    font-size:20px;
+                    color:#fff;
+                }
+                .nav-r{
+                    width:368px;
+                    &.nav-r-2{
+                        width:328px;
+                    }
+                }
+            }
+            &.nav-l-2{
+                width:696px;
+            }
+        }
+    }
+}
+.our-tit{
+    margin-bottom: 120px;
+    width: 100%;
+    height:200px;
+    text-align: center;
+    color:#fff;
+    background: url(../images/bg-01.png) no-repeat top left #33639E;
+    background-size: 100%;
+    .our-text{
+        padding-top:72px;
+        line-height:1;
+        font-size:46px;
+    }
+    .white-line{
+        display: inline-block;
+        margin-top: 38px;
+        width:120px;
+        height:8px;
+        background: #fff;
+    }
+}
+.customer{
+   .customer-item{
+       float: left;
+       margin-right: 60px;
+       margin-bottom: 100px;
+       width: 360px;
+       &:nth-child(3n){
+           margin-right: 0;
+       }
+       img{
+           width:360px;
+           height:360px;
+       }
+       .customer-tit{
+           padding-top:22px;
+           text-align:center;
+           font-size:24px;
+           width:360px;
+            height:120px;
+            line-height:36px;
+            background:rgba(255,255,255,1);
+            box-shadow:0px 8px 16px 0px rgba(164,164,164,0.3);
+       }
+   } 
+}
+.banner-txt{
+    position:absolute;
+    top:19%;
+    right:11%;
+    z-index:10;
+    height:60%;
+}
+.factory{
+    .factory-img{
+        height:660px;
+    }
+    .factory-img-2{
+        width:700px;
+    }
+    .factory-p{
+        display:none;
+        // padding: 25px 38px 53px 37px;
+        // width:540px;
+        // font-size:22px;
+        // line-height:42px;
+        // box-shadow:0px 60px 100px 0px rgba(164,164,164,0.3);
+    }
+    .factory-des{
+        padding: 0px 55px 46px 45px;
+        line-height: 39px;
+        width: 483px;
+        font-size: 25px;
+        color: #1b1b1b;
+        box-shadow:0px 60px 100px 0px rgba(164,164,164,0.3);
+        .site-tit{
+            padding-top:40px;
+            padding-bottom:31px;
+            color:#33639E;
+        }
+    }
+}
+.patent{
+    display: block;
+    margin:124px 0 0;
+    width:100%;
+}
+.manu-capacity{
+    margin-top:159px;
+    &.mt0{
+        margin-top: 0;
+    }
+    .manu-top{
+        margin-bottom: 79px;
+        width:100%;
+        border-bottom:3px solid #33639E;
+        &.mb50{
+            margin-bottom:50px;
+        }
+        .manu-tit{
+            width:360px;
+            height:80px;
+            line-height:80px;
+            font-size:24px;
+            font-weight:normal;
+            text-align:center;
+            color:#fff;
+            background:#33639E;
+            &.w220{
+                width:220px;
+            }
+        }
+    }
+    .manu-img-0{
+        margin:0 auto;
+        padding:53px 0 120px;
+        width:1140px;
+        img{
+            width:560px;
+        }
+    }
+    .samrt{
+        display:block;
+        margin:0 auto;
+        padding:76px 0 39px;
+    }
+    .manu-img{
+        width:100%;
+    }
+    .manu-imgs{
+        width:100%;
+        .manu-img-2{
+            width:560px;
+        }
+        .manu-item{
+            margin-bottom:117px;
+            margin-right:47px;
+            width:576px;
+            &:nth-child(2n){
+                margin-right:0;
+            }
+            .item-img{
+                width:100%;
+            }
+        }
+    }
+}
+.footer{
+    display: none;
+    width:100%;
+    height:400px;
+    background: #0E0E2A;
+}
+.banner{
+    position:relative;
+    width:100%;
+}
+.swiper-container {
+    width: 100%;
+    height:100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    img{
+        width:100%;
+        height:auto;
+    }
+  }
+
+// 轨道
+.img-top{
+    display: block;
+    width:100%;
+}
+.light{
+    margin-top:179px;
+    padding:150px 0 142px;
+    width:100%;
+    background:#E9E9E9;
+    .light-item{
+        margin-right: 42.2px;
+        width: 264px;
+        background:#fff;
+        &:last-child{
+            margin-right: 0;
+        }
+        .light-img{
+            width:100%;
+        }
+        .light-tit{
+            width:100%;
+            height:113px;
+            line-height:113px;
+            font-size:24px;
+            text-align: center;
+            color:#333;
+        }
+    }
+}
+
+// LED灯管
+.led{
+    .led-des{
+        .led-tit{
+            padding:76px 0 47px;
+            font-size:30px;
+            color:#33639E;
+        }
+        .led-p{
+            line-height:36px;
+            font-size:24px;
+            color:#666;
+        }
+    }
+    .led-light{
+        box-shadow:0px 60px 100px 0px rgba(164,164,164,0.3);
+    }
+}
+
+// 加入我们
+.jobs{
+    margin:0 auto;
+    margin-top:100px;
+    width:1200px;
+    border-bottom: 3px solid #33639E;
+    .job-item{
+        float:left;
+        margin-right:25px;
+        width:220px;
+        height:80px;
+        line-height:80px;
+        font-size:24px;
+        text-align:center;
+        color:#666;
+        background:#EFEFEF;
+        &.on{
+            color:#fff;
+            background: rgba(51,99,158,1);
+        }
+        &:last-child{
+            margin-right:0;
+        }
+    }
+}
+.job-detail{
+    .detail-item{
+        padding-bottom:200px;
+        display:none;
+        .detail-tit{
+            margin: 80px 0 39px;
+            line-height: 30px;
+            text-indent: 20px;
+            font-size:22px;
+            color:#666;
+            background:url(../images/icon-01.jpg) no-repeat left center;
+        }
+        .detail-p{
+            line-height:40px;
+            font-size:18px;
+            color:#888;
+        }
+        .designer{
+            display:none;
+        }
+    }
+}
+// 关于我们
+.about-des{
+    padding:0 20px 64px;
+    .des-tit{
+        padding:49px 0 20px;
+        font-size:34px;
+        color:#34649E;
+    }
+}
+.sty-p{
+    font-size:30px;
+    line-height: 50px;
+    color:#1B1B1B;
+}
+.qualification{
+    text-align: center;
+    color:#1b1b1b;
+    .quali-tit{
+        font-size:40px;
+    }
+    .quali-p{
+        padding:49px 0 134px;
+        font-size:36px;
+    }
+    .quali-img{
+        padding-bottom:105px;
+    }
+}
+.crcc{
+    padding:128px 0;
+    width:100%;
+    background: #EDEDED;
+    .crcc-list{
+        .crcc-img{
+            float: left;
+            margin:140px 105px 0 0;
+            width:329px;
+            &:nth-child(3n){
+                margin-right:0;
+            }
+        }
+        .crcc-img-2{
+            float: left;
+            margin:88px 43px 0 0;
+            width:274px;
+            &.special-1{
+                width:258px;
+            }
+            &.special-2{
+                margin-right:0;
+                width:257px;
+            }
+        }
+        .crcc-img-3{
+            float: left;
+            margin:88px 32px 0 0;
+            width:276px;
+            &.special-3{
+                margin-right:0;
+            }
+        }
+    }
+    &.crcc-2{
+        background:#fff;
+    }
+}
+.crcc-tit{
+    font-size:40px;
+    font-weight: normal;
+    color:#2D2D2D;
+    &.crcc-tit-2{
+        margin-bottom:90px;
+    }
+}
+.service{
+    padding-bottom:300px;
+    .for-customer{
+        margin-bottom: 145px;
+    }
+    .team{
+        margin-top:27px;
+    }
+}
+
+// 景观照明
+.consult{
+    .consult-item{
+        float:left;
+        margin:0 57px 0 0;
+        width:360px;
+        &:nth-child(3n){
+            margin-right:0;
+        }
+        .item-ul{
+            margin:66px 0 118px;
+            .item-li{
+                padding-bottom:14px;
+                line-height:32px;
+                font-size:22px;
+                color:#666;
+                text-indent: 30px;
+                text-align: left;
+                background:url(../images/icon-08.jpg) no-repeat left 9px;
+            }
+        }
+    }
+}
+.case{
+    .case-item{
+        float:left;
+        margin-right:47px;
+        margin-bottom:117px;
+        width:576px;
+        text-align: center;
+        font-size:28px;
+        &:nth-child(2n){
+            margin-right:0;
+        }
+        .case-img{
+            width:576px;
+        }
+        .case-tit{
+            padding:76px 0 44px;
+            color: #0D569B;
+            font-weight: normal;
+        }
+        .case-p{
+            line-height: 44px;
+            color:#666;
+        }
+    }
+}
+// 联系我们
+.concat{
+    margin:0 auto;
+    margin-top:77px;
+    width:1032px;
+    .concat-item{
+        width:344px;
+        text-align: center;
+        .item-img{
+            width:80px;
+            border:1px dashed #888;
+        }
+        .item-span{
+            display: block;
+            padding:7px 0 30px;
+            font-size:18px;
+            color:#888;
+        }
+        .item-p{
+            line-height:30px;
+            font-size:22px;
+            color:#666;
+        }
+    }
+}
+.map-con{
+    width:100%;
+    max-width:1200px;
+    height:720px;
+    border:#ccc solid 1px;
+}
+
+// 移动端
+@media screen and (max-width:767px) {
+    .container{
+        width:100%;
+        min-width:auto;
+    }
+    .wrapper{
+        margin:0 auto;
+        padding:0 3%;
+        width:100%;
+        &.w{
+            padding:0;
+        }
+    }
+    .wrappers{
+        margin:0 auto;
+        padding:0 .3rem;
+        width:100%;
+    }
+    .ww{
+        padding:0 3%;
+    }
+    .img-top{
+        height:3.5rem;
+    }
+    .top{
+        height:.8rem;
+        .logo{
+            margin: .18rem 0 0 0;
+            width:1.98rem;
+        }
+        .close-btn{
+            display:block;
+            padding:.4rem .32rem 0.4rem 0;
+            font-size:.5rem;
+            text-align:right;
+            color:#fff;
+        }
+        .nav{
+            display:block;
+            &.nav-2{
+                display:none;
+                position:absolute;
+                left:0;
+                right:0;
+                top:0;
+                z-index:100;
+                bottom:0;
+                width:100%;
+                height:100%;
+                background:rgba(0,0,0,.85);
+            }
+            .item{
+                display: block;
+                padding:0;
+                width: 100%;
+                float: left;
+                line-height: 1rem;
+                font-size: .28rem;
+                text-indent: .5rem;
+                color: #9699A6;
+                &.push{
+                    position:relative;
+                    color:#fff;
+                    background: rgba(255,255,255,.1);
+                    .fold-btn{
+                        position:absolute;
+                        top:.43rem;
+                        right:.33rem;
+                        display:block;
+                        width:.21rem;
+                        height:.16rem;
+                        background:url(../images/icon-13.png) no-repeat center center;
+                        background-size:100%;
+                    }
+                }
+                &.on{
+                    background:none;
+                }
+            }
+        }
+        .nav-btn{
+            display: block;
+            margin:.25rem 0 0 0;
+            width:.28rem;
+            height:.3rem;
+            background:url(../images/icon-12.png) no-repeat left top;
+            background-size:100%;
+        }
+    }
+    .nav-box-2{
+        display:none;
+        .nav-list{
+            line-height:.74rem;
+            .nav-tit{
+                font-size:.28rem;
+                font-weight:normal;
+                text-indent:1.24rem;
+                text-decoration: underline;
+                color:#a4a1a1;
+            }
+            .nav-ul{
+                .nav-li{
+                    display: block;
+                    font-size:.26rem;
+                    text-indent:1.59rem;
+                    color:#fff;
+                }
+            }
+        }
+    }
+    .our-tit{
+        margin-bottom: .3rem;
+        width: 100%;
+        height: .8rem;
+        &.mb0{
+            margin-bottom:0;
+        }
+        .our-text{
+            padding-top: .2rem;
+            line-height: 1;
+            font-weight: normal;
+            font-size: .28rem;
+        }
+        .white-line{
+            display:block;
+            margin:0 auto;
+            margin-top: 0.1rem;
+            width: 1.4rem;
+            height: 2px;
+        }
+    }
+    .customer{
+        .customer-item{
+            margin-right: 2%;
+            margin-bottom: .3rem;
+            width: 32%;
+            .customer-tit{
+                font-size: .21rem;
+                width: 100%;
+                line-height: .3rem;
+                padding-top: .1rem;
+                height: .8rem;
+            }
+            img{
+                width:100%;
+                height:auto;
+            }
+        }
+    }
+    .factory{
+        .factory-img{
+            width:100%;
+            height:auto;
+        }
+        .factory-p{
+            display:block;
+            padding-top:.18rem;
+            font-size:.24rem;
+            color:#1b1b1b;
+            line-height:.42rem;
+        }
+        .factory-des{
+            padding: 0 .3rem;
+            line-height: .38rem;
+            width: 100%;
+            font-size: .26rem;
+            box-shadow: none;
+            .site-tit{
+                padding-top: .3rem;
+                padding-bottom: .16rem;
+            }
+        }
+    } 
+    .patent{
+        margin: 0.32rem 0 .29rem;
+    }
+    .manu-capacity{
+        .manu-top{
+            margin-top:.3rem;
+            margin-bottom: .2rem;
+            border-bottom: 2px solid #33639E;
+            .manu-tit{
+                width: 4rem;
+                height: .6rem;
+                line-height: .6rem;
+                font-size: .26rem;
+            }
+            &.mb50{
+                margin-bottom: .3rem;
+            }
+        }
+        .manu-imgs{
+            .manu-img-2{
+                width: 48.6%;
+            }
+            .manu-item{
+                margin-bottom: .28rem;
+                margin-right: 3%;
+                width: 48.5%;
+            }
+        } 
+        .manu-img-0{
+            padding: 0.3rem 0.3rem .1rem;
+            width: 100%;
+            img{
+                width:48%;
+            }
+        }
+        .samrt{
+            padding: 0;
+            width: 100%;
+        }
+    }
+    .jobs{
+        margin: 0 auto;
+        margin-top: 0;
+        padding-bottom: .3rem;
+        width: 100%;
+        border-bottom: .08rem solid #F7F7FC;
+        .job-item{
+            display: block;
+            float: left;
+            margin-top: 0.3rem;
+            margin-right: 4%;
+            width: 48%;
+            height: 1rem;
+            line-height: 1rem;
+            font-size: 0.32rem;
+            text-indent: 0;
+            color: #313131;
+            background: #f5f6fa;
+            border-radius: 0.05rem;
+            border-radius: .05rem;
+            &:nth-child(2n){
+                margin-right:0;
+            }
+        }
+        // .job-det{
+        //     padding:0 .4rem 0 .3rem;
+        //     background:#f5f6fa;
+        //     .detail-tit{
+        //         padding-bottom: .05rem;
+        //         font-size:.28rem;
+        //         text-indent:.21rem;
+        //         color:#313131;
+        //         background:url(../images/icon-16.png) no-repeat left center;
+        //         background-size:.08rem;
+        //     }
+        //     .detail-p{
+        //         padding-bottom:.32rem;
+        //         line-height:.4rem;
+        //         font-size:.24rem;
+        //         color:#888;
+        //     }
+        // }
+    }
+    .job-detail{
+        margin-top:.3rem;
+    }
+    .job-detail{
+        .detail-item{
+            margin: 0 auto;
+            padding: 0 .3rem;
+            width: 100%;
+            background: #F5F6FA;
+            border-radius: .05rem;
+            .detail-tit{
+                margin: 0;
+                line-height: 30px;
+                text-indent: .21rem;
+                font-size: .28rem;
+                color: #666;
+                background: url(../images/icon-16.png) no-repeat left center;
+                background-size: .08rem;
+            }
+            .detail-p{
+                padding-bottom:.32rem;
+                line-height: .4rem;
+                font-size: .24rem;
+            }
+            .designer{
+                display:block;
+                padding-top:.28rem;
+                font-size:.32rem;
+                font-weight: normal;
+                color:#313131;
+            }
+        }
+    }
+    .factory{
+        .factory-img-2{
+            width:100%;
+        }
+    }
+    .light {
+        margin-top: .32rem;
+        padding: .3rem 0 .35rem;
+        width: 100%;
+        background: #E9E9E9;
+        .light-item{
+            margin-right: 2.75%;
+            width: 31.5%;
+            &:nth-child(3){
+                margin-right:0;
+            }
+            &:nth-child(4){
+                display: none;
+            }
+            .light-tit{
+                height: .88rem;
+                line-height: .88rem;
+                font-size: .22rem;
+            }
+        }
+    }
+    .led{
+        .led-light{
+            box-shadow: none;
+        }
+        .led-des{
+            .led-tit{
+                padding: .3rem 0 .16rem;
+                font-size: .26rem;
+            }
+            .led-p{
+                line-height: .38rem;
+                font-size: .26rem;
+                color: #666;
+            }
+        }
+    }
+    .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+        display:none;
+    }
+    .about-des{
+        .sty-p{
+            line-height:.38rem;
+            font-size:.26rem;
+        }
+        .des-tit{
+            padding: .2rem 0 .2rem;
+            font-size: .26rem;
+        }
+    }
+    .sty-p{
+        line-height:.38rem;
+        font-size:.26rem;
+    }
+    .qualification{
+        .quali-tit{
+            font-size: .28rem;
+        }
+        .quali-p{
+            padding: .1rem;
+            font-size: .26rem;
+        }
+        .quali-img{
+            padding-bottom: .3rem;
+            width: 96%;
+        }
+    }
+    .crcc{
+        padding:.3rem 0;
+        .crcc-list{
+            .crcc-img{
+                margin: .3rem 1% 0;
+                width: 48%;
+            }
+            .crcc-img-2{
+                margin: .3rem 1% 0;
+                width: 48%;
+                &.special-1{
+                    width:45.2%;
+                }
+                &.special-2{
+                    width:45%;
+                }
+            }
+            .crcc-img-3{
+                margin: .3rem 1% 0;
+                width: 48%;
+                &:nth-child(1){
+                    width:47.7%;
+                }
+            }
+        } 
+    }
+    .crcc-tit{
+        font-size:.28rem;
+        font-weight:bold;
+        &.crcc-tit-2{
+            margin-bottom:.36rem;
+        }
+    }
+    .service {
+        padding-bottom: .3rem;
+        .for-customer {
+            margin-bottom: .36rem;
+        }
+        .team {
+            margin-top: .28rem;
+        }
+    }
+    .concat {
+        margin: 0 auto;
+        margin-top: .4rem;
+        width: 100%;
+        .concat-item{
+            width:33.33%;
+            .item-p {
+                line-height: .34rem;
+                font-size: .24rem;
+                color: #666;
+            }
+            .item-span {
+                display: block;
+                padding: .07rem 0 .1rem;
+                font-size: .26rem;
+                color: #888;
+            }
+        }
+    }
+    .map-con{
+        height:5rem;
+    }
+    .consult{
+        .consult-item{
+            margin: 0 4% 0 0;
+            width: 48%;
+            &:nth-child(2n){
+                margin-right:0;
+            }
+            &:nth-child(3n){
+                margin-right:4%;
+            }
+            &:nth-child(6){
+                margin-right:0;
+            }
+            .item-dt{
+                img{
+                    width:100%;
+                }
+            }
+            .item-ul {
+                margin: .3rem 0 .3rem;
+                .item-li {
+                    padding-bottom: 0.14rem;
+                    line-height: 0.32rem;
+                    font-size: 0.26rem;
+                    text-indent: 0.3rem;
+                    background: url(../images/icon-08.jpg) no-repeat left 2px;
+                    background-size: 0.24rem;
+                }
+            }
+        }
+    }
+    .case{
+        .case-item {
+            float: left;
+            margin-right: 4%;
+            margin-bottom: .3rem;
+            width: 48%;
+            text-align: center;
+            font-size: .26rem;
+            .case-img {
+                width: 100%;
+            }
+            .case-tit {
+                padding: 0.1rem 0 .1rem;
+                color: #0D569B;
+                font-weight: normal;
+            }
+            .case-p {
+                line-height: .32rem;
+                color: #666;
+            }
+        }
+    }
+}
+
