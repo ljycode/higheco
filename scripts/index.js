@@ -20,6 +20,7 @@ $(function(){
     $(".nav-box").mouseover(function(){
         isShow = true;
         $(this).stop().show();
+        // $(this).prev().find(".fold").addClass("on").siblings().removeClass("on");
     });
     $(".nav-box").mouseout(function(){
         if(isShow){
@@ -38,13 +39,15 @@ $(function(){
     
     $(".nav .item").mouseout(function(){
         if(window.innerWidth > 767){
-            switch(on_index) {
-                case 1: $(".nav .item").eq(0).addClass("on").siblings().removeClass("on");break;
-                case 2: $(".nav .item").eq(1).addClass("on").siblings().removeClass("on");break;
-                case 4: $(".nav .item").eq(2).addClass("on").siblings().removeClass("on");break;
-                case 5: $(".nav .item").eq(3).addClass("on").siblings().removeClass("on");break;
-                case 6: $(".nav .item").eq(4).addClass("on").siblings().removeClass("on");break;
-                case 7: $(".nav .item").eq(5).addClass("on").siblings().removeClass("on");break;
+            if($(".nav-box").css("display") == "none"){
+                switch(on_index) {
+                    case 1: $(".nav .item").eq(0).addClass("on").siblings().removeClass("on");break;
+                    case 2: $(".nav .item").eq(1).addClass("on").siblings().removeClass("on");break;
+                    case 4: $(".nav .item").eq(2).addClass("on").siblings().removeClass("on");break;
+                    case 5: $(".nav .item").eq(3).addClass("on").siblings().removeClass("on");break;
+                    case 6: $(".nav .item").eq(4).addClass("on").siblings().removeClass("on");break;
+                    case 7: $(".nav .item").eq(5).addClass("on").siblings().removeClass("on");break;
+                }
             }
         }
     })
