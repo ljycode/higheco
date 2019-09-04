@@ -450,6 +450,7 @@
         }
         .item-ul{
             margin:66px 0 118px;
+            height:224px;
             .item-li{
                 padding-bottom:14px;
                 line-height:32px;
@@ -500,7 +501,7 @@
         }
         .item-span{
             display: block;
-            padding:7px 0 30px;
+            padding:7px 0 25px;
             font-size:18px;
             color:#888;
         }
@@ -964,6 +965,8 @@
             }
             .item-ul {
                 margin: .3rem 0 .3rem;
+                height:2.9rem;
+                
                 .item-li {
                     padding-bottom: 0.14rem;
                     line-height: 0.32rem;
@@ -971,6 +974,11 @@
                     text-indent: 0.3rem;
                     background: url(../images/icon-08.jpg) no-repeat left 2px;
                     background-size: 0.24rem;
+                }
+            }
+            &:nth-child(1){
+                .item-ul {
+                    height:3.4rem;
                 }
             }
         }
