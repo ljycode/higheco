@@ -760,13 +760,6 @@ a {
     width: 100%;
     height: auto;
   }
-  .factory .factory-p {
-    display: block;
-    padding-top: 0.18rem;
-    font-size: 0.24rem;
-    color: #1b1b1b;
-    line-height: 0.42rem;
-  }
   .factory .factory-des {
     padding: 0 0.3rem;
     line-height: 0.38rem;
