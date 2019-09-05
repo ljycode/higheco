@@ -67,6 +67,20 @@ $(function(){
         $(".nav-box-2").hide();
     });
 
-    //移动端加入我们点击展开折叠
+    
+    // 返回顶部
+    var return_top = '<img class="go-top" src="images/top.png" />'
+    $(".container").append(return_top);
+    $(window).scroll(function(){
+        var scroll_top = $(window).scrollTop();
+        if(scroll_top>100){
+            $(".go-top").fadeIn(500);
+        } else {
+            $(".go-top").fadeOut(500);
+        }
+    })
+    $(".container").on('click','.go-top',function(){
+        $("html,body").animate({scrollTop:0},"slow");
+    })
 })
                     

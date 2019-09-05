@@ -150,6 +150,14 @@ a {
   width: 696px;
 }
 
+.go-top {
+  position: fixed;
+  right: 39px;
+  bottom: 45px;
+  width: 79px;
+  z-index: 999;
+}
+
 .our-tit {
   margin-bottom: 120px;
   width: 100%;
@@ -723,6 +731,12 @@ a {
     margin-top: 0.1rem;
     width: 1.4rem;
     height: 2px;
+  }
+
+  .go-top {
+    display: none;
+    z-index: -1;
+    width: 0;
   }
 
   .customer .customer-item {
