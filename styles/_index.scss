@@ -367,24 +367,25 @@
     padding:0 20px 64px;
     .des-tit{
         padding:49px 0 20px;
-        font-size:34px;
+        font-size:24px;
         color:#34649E;
     }
 }
 .sty-p{
-    font-size:30px;
-    line-height: 50px;
+    font-size:24px;
+    line-height: 40px;
     color:#1B1B1B;
+    text-indent: 2em;
 }
 .qualification{
     text-align: center;
     color:#1b1b1b;
     .quali-tit{
-        font-size:40px;
+        font-size:36px;
     }
     .quali-p{
         padding:49px 0 134px;
-        font-size:36px;
+        font-size:24px;
     }
     .quali-img{
         padding-bottom:105px;
@@ -429,7 +430,7 @@
     }
 }
 .crcc-tit{
-    font-size:40px;
+    font-size:36px;
     font-weight: normal;
     color:#2D2D2D;
     &.crcc-tit-2{
@@ -461,9 +462,9 @@
             .item-li{
                 padding-bottom:14px;
                 line-height:32px;
-                font-size:22px;
+                font-size:20px;
                 color:#666;
-                text-indent: 30px;
+                text-indent: 21px;
                 text-align: left;
                 background:url(../images/icon-08.jpg) no-repeat left 9px;
             }
@@ -477,7 +478,7 @@
         margin-bottom:117px;
         width:576px;
         text-align: center;
-        font-size:28px;
+        font-size:26px;
         &:nth-child(2n){
             margin-right:0;
         }
@@ -498,7 +499,7 @@
 // 联系我们
 .concat{
     margin:0 auto;
-    margin-top:77px;
+    margin-top:60px;
     width:1032px;
     .concat-item{
         width:344px;
