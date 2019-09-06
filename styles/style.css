@@ -120,6 +120,7 @@ a {
 }
 .nav-box .nav-list {
   margin: 0 auto;
+  padding-left: 25%;
   width: 1098px;
 }
 .nav-box .nav-list .nav-l {
