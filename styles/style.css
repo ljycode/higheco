@@ -127,6 +127,9 @@ a {
   padding-top: 83px;
   width: 402px;
 }
+.nav-box .nav-list .nav-l:nth-child(2) {
+  display: none;
+}
 .nav-box .nav-list .nav-l .nav-tit {
   margin-bottom: 52px;
   line-height: 1;
@@ -700,6 +703,9 @@ a {
   .nav-box-2 .nav-list {
     line-height: 0.74rem;
   }
+  .nav-box-2 .nav-list .nav-l:nth-child(2) {
+    display: none;
+  }
   .nav-box-2 .nav-list .nav-tit {
     font-size: 0.28rem;
     font-weight: normal;
@@ -883,14 +889,12 @@ a {
     background: #E9E9E9;
   }
   .light .light-item {
-    margin-right: 2.75%;
-    width: 31.5%;
+    margin-right: 4%;
+    margin-bottom: 0.3rem;
+    width: 48%;
   }
-  .light .light-item:nth-child(3) {
+  .light .light-item:nth-child(2n) {
     margin-right: 0;
-  }
-  .light .light-item:nth-child(4) {
-    display: none;
   }
   .light .light-item .light-tit {
     height: 0.88rem;
