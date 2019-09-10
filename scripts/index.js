@@ -47,6 +47,8 @@ $(function(){
                     case 5: $(".nav .item").eq(3).addClass("on").siblings().removeClass("on");break;
                     case 6: $(".nav .item").eq(4).addClass("on").siblings().removeClass("on");break;
                     case 7: $(".nav .item").eq(5).addClass("on").siblings().removeClass("on");break;
+                    case 8: $(".nav .item").eq(6).addClass("on").siblings().removeClass("on");break;
+                    case 9: $(".nav .item").eq(7).addClass("on").siblings().removeClass("on");break;
                 }
             }
         }
