@@ -2,14 +2,14 @@
 .top{
     height:90px;
     .logo{
-        margin:26px 243px 0 0;
+        margin:26px 0 0 0;
         width:198px;
     }
     .nav{
         .item{
             display: inline-block;
             float: left;
-            padding:0 30px;
+            padding:0 24px;
             line-height: 90px;
             font-size:16px;
             color:#9699A6;    
@@ -175,6 +175,9 @@
     margin-top:159px;
     &.mt0{
         margin-top: 0;
+    }
+    &.mt60{
+        margin-top: 60px;
     }
     .manu-top{
         margin-bottom: 79px;
@@ -554,9 +557,9 @@
     .ww{
         padding:0 3%;
     }
-    .img-top{
-        height:3.5rem;
-    }
+    // .img-top{
+    //     height:3.5rem;
+    // }
     .top{
         height:.8rem;
         .logo{
@@ -653,6 +656,9 @@
         &.mb0{
             margin-bottom:0;
         }
+        &.mt3{
+            margin-top: .3rem;
+        }
         .our-text{
             padding-top: .2rem;
             line-height: 1;
@@ -718,6 +724,9 @@
         margin: 0.32rem 0 .29rem;
     }
     .manu-capacity{
+        &.mt60{
+            margin-top:.3rem;
+        }
         .manu-top{
             margin-top:.3rem;
             margin-bottom: .2rem;
